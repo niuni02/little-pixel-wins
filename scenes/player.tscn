@@ -125,3 +125,6 @@ animation = &"down_idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1769359133]
 shape = SubResource("CapsuleShape2D_7bxlw")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2082776780]
+position_smoothing_enabled = true
