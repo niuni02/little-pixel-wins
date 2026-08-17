@@ -3,7 +3,7 @@ using Godot;
 public partial class Player : CharacterBody2D
 {
 	[Export]
-	public float Speed = 100.0f;
+	public float Speed = 150.0f;
 
 	private AnimatedSprite2D animatedSprite;
 	private Vector2 facingDirection = Vector2.Down;

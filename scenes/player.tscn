@@ -110,10 +110,11 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7bxlw"]
-radius = 23.0
-height = 88.0
+radius = 25.0
+height = 52.0
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=1366948143]
+position = Vector2(4, -6)
 safe_margin = 0.001
 script = ExtResource("1_qfm1y")
 metadata/_edit_group_ = true
@@ -124,6 +125,7 @@ sprite_frames = SubResource("SpriteFrames_7bxlw")
 animation = &"down_idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1769359133]
+position = Vector2(-1, 25)
 shape = SubResource("CapsuleShape2D_7bxlw")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=2082776780]
